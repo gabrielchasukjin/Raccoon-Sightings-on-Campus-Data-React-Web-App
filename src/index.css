@@ -1,13 +1,107 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+}
+main{
+    display: flex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.map {
+    margin: 0;
+    border: 1px dotted blue;
+    width: 100vw;
+    height: 93vh;
+    cursor: copy;
 }
+
+.map-header {
+    margin: 0px;
+}
+
+.navbar {
+    padding-left: 20px;
+    display:flex; 
+    align-items: center;
+    height: 7vh;
+    background-color: #4CAF4F; 
+    margin-bottom: 0px; 
+}
+
+.nav-image {
+    height: 24px;
+    width: 24px;
+}
+
+.nav-title {
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    margin-left: 5px;
+}
+
+.marker-submit {
+    cursor: pointer;
+    position: absolute; 
+    z-index: 3;
+    background-color: #1B72E8;
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 15vw;
+    max-width: 180px;
+    height: 8vh;
+    border-color: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Inter';
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.contacts {
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    width: 20vw;
+    max-width: 430px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.contact-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 18vw;
+    height: 30px;
+    max-width: 420px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 13px;
+    background-color: white;
+    
+}
+
+.card-stats {
+    display: flex;
+}
+
+.card-location{
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: black;
+    font-family: 'Inter';
+}
+
+
+
