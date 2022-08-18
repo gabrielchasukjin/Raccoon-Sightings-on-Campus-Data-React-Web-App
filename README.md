@@ -1,4 +1,4 @@
-#Campus Raccoon Sightings App
+# Campus Raccoon Sightings App
 
 With a plethora of cute raccoons across UC San Diego campus, I developed a full-stack app to track the sightings of these mischievous creatures across campus. 
 
